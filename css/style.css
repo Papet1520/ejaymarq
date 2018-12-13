@@ -1,0 +1,131 @@
+body {
+	
+}
+
+html {
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+
+}
+
+
+
+a {
+	text-decoration: none;
+	color: white;
+	border: 5px solid white;
+}
+
+.showcase h1 {
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	font-style: bold;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+
+#main-article p {
+	color: white;
+}
+
+.picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	border: 5px solid white;
+
+}
+
+
+
+#secondary-article h5 {
+	color: white;
+}
+
+#secondary-article p {
+	color: white;
+	font-size: 10px;
+	text-align: left;
+}
+
+br {
+	padding-bottom: 10px;
+}
+
+
+
+.button {
+	padding: 5px;
+
+}
+
+.first .button{
+	font-size: 100px;
+	border: none;
+
+}
+
+#main-menu {
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+	
+}
+
+
+}
+.header-top {
+	color: white;
+	padding: 5px;
+
+	
+}
+
+header {
+	padding: 280px;
+	background-image: url(../images/road_marking_bridge_123398_1920x1080.jpg);
+	background-size: cover;
+}
+
+#main-article {
+	background-image: url(../images/city_sunset_new_york_121480_1920x1080.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 300px;
+
+}
+
+#main-article h1 {
+	color: white;
+	font-size: 90px;
+	
+}
+
+#secondary-article {
+	background-image: url(../images/street_sunset_palm_trees_122106_1920x1080.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 300px;
+	display: grid;
+	grid-gap: 100px;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+
+#third-article {
+	background: url(../images/city_evening_lights_river_beach_buildings_sky_47868_1920x1080.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 325px;
+	
+}
